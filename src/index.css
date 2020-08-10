@@ -37,7 +37,7 @@ a, p {
   display: flex;
   justify-content: center;
   line-height: 25vh;
-  font-size: 35pt;  
+  font-size: 2vw;  
   flex: 0 0 calc(100% / 3  - 4%);
   height: calc(100vh / 3 - 7.4vh);
   margin-bottom: 3.7vh;
@@ -55,7 +55,7 @@ a, p {
   margin-top: 1.85vh;
   margin-bottom: 5.55vh;
   background-color: #3282b8;
-  font-size: 38pt;
+  font-size: 10vmin;
 }
 .cell:hover {
   flex-basis: calc((100% / 3  - 80px) + 2%);
@@ -64,7 +64,7 @@ a, p {
   margin-top: 1.85vh;
   margin-bottom: 5.55vh;
   background-color: #3282b8;
-  font-size: 38pt;
+  font-size: 2.6vw;
 }
 .unselectable {
   -webkit-touch-callout: none;

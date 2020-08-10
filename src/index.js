@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 const barStyle = {
-  "flex-basis": "calc(100% - 80px)"
+  "flex-basis": "calc(100% - 80px)",
+  "font-size": "8vmin"
 }
 
 class Reveal extends React.Component {
