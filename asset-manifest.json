@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/boon/static/css/main.d4e7e155.chunk.css",
-    "main.js": "/boon/static/js/main.11090bd2.chunk.js",
-    "main.js.map": "/boon/static/js/main.11090bd2.chunk.js.map",
+    "main.css": "/boon/static/css/main.9860042f.chunk.css",
+    "main.js": "/boon/static/js/main.9dc42b22.chunk.js",
+    "main.js.map": "/boon/static/js/main.9dc42b22.chunk.js.map",
     "runtime-main.js": "/boon/static/js/runtime-main.b095ebfe.js",
     "runtime-main.js.map": "/boon/static/js/runtime-main.b095ebfe.js.map",
     "static/js/2.4cb98a39.chunk.js": "/boon/static/js/2.4cb98a39.chunk.js",
     "static/js/2.4cb98a39.chunk.js.map": "/boon/static/js/2.4cb98a39.chunk.js.map",
     "index.html": "/boon/index.html",
-    "precache-manifest.c44dc99aea518385e1c1ab3a90ecbd73.js": "/boon/precache-manifest.c44dc99aea518385e1c1ab3a90ecbd73.js",
+    "precache-manifest.e04695d02c3b189bf431fa40c8fbb3a7.js": "/boon/precache-manifest.e04695d02c3b189bf431fa40c8fbb3a7.js",
     "service-worker.js": "/boon/service-worker.js",
-    "static/css/main.d4e7e155.chunk.css.map": "/boon/static/css/main.d4e7e155.chunk.css.map",
+    "static/css/main.9860042f.chunk.css.map": "/boon/static/css/main.9860042f.chunk.css.map",
     "static/js/2.4cb98a39.chunk.js.LICENSE.txt": "/boon/static/js/2.4cb98a39.chunk.js.LICENSE.txt",
     "static/media/index.css": "/boon/static/media/Product Sans Regular.eae9c18c.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.b095ebfe.js",
     "static/js/2.4cb98a39.chunk.js",
-    "static/css/main.d4e7e155.chunk.css",
-    "static/js/main.11090bd2.chunk.js"
+    "static/css/main.9860042f.chunk.css",
+    "static/js/main.9dc42b22.chunk.js"
   ]
 }
