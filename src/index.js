@@ -8,17 +8,20 @@ class Cycle extends React.Component {
   constructor(props){
     super(props)
     this.state = {
+      width: "boks",
       contents: this.props.contents,
       value: contents[0],
     }
   }
   render(){
     return (
-      <a onClick={() => {
+      <span class={this.state.width} onClick={() => {
         i++
         if(i>2)i=0
         this.setState({value: this.state.contents[i]})
-      }}>{this.state.value}</a>
+        }}>
+        <a class="boon">{this.state.value}</a>
+      </span>
     )
   }
 }
@@ -29,7 +32,7 @@ const App = () => {
     <div class="cell hoverable unselectable"><a>Harrison Boon</a></div>
     <div class="cell unselectable invisible"></div>
     <div class="cell unselectable invisible"></div>
-    <div class="cell big hoverable unselectable"><a class="boon">Hi there, I'm Boon,<br/>and I am a full-stack <Cycle contents={contents}/> developer</a></div>
+    <div class="cell big hoverable unselectable"><a class="boon">Hi there, I'm Boon,<br/>and I am a full-stack <Cycle width="boks" contents={contents}/> developer</a></div>
   </div>
   );
 }

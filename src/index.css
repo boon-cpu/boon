@@ -1,4 +1,4 @@
-::-moz-selection { /* Code for Firefox */
+::-moz-selection { /* Code for disgusting stupid firefox browser */
   color: #441e05e0;
   background: #cd7d47e0;
 }
@@ -20,12 +20,17 @@ body {
   height: 100vh;
   height: 100%;
   margin: 0;
-
 }
 a, p {
   color: #bbe1fa;
   font-family: "Product Sans";
   font-weight: 700;
+}
+.boks {
+  display: inline-block;
+  width: 16vw;
+  background-color: #0f4c7580;
+  border-radius: 10px;
 }
 .boon {
   margin: 2%;
@@ -60,6 +65,11 @@ a, p {
   transition: all 0.3s ease;
   line-height: 10vh;
   justify-content: flex-start;
+  width: auto;
+}
+.big .boks {
+  width: 16vw;
+  transition: width 0.3s ease;
 }
 .hoverable:hover {
   flex-basis: calc((100% / 3  - 4%) + 2%);
@@ -72,6 +82,10 @@ a, p {
 }
 .big:hover {
   flex-basis: calc((100% - 4%) + 2%);
+}
+.big:hover .boks {
+  width: 22vw;
+  transition: width 0.3s ease;
 }
 .unselectable {
   -webkit-touch-callout: none;
