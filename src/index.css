@@ -1,10 +1,10 @@
 ::-moz-selection { /* Code for Firefox */
-  color: #441e05;
-  background: #cd7d47;
+  color: #441e05e0;
+  background: #cd7d47e0;
 }
 ::selection {
-  color: #441e05;
-  background: #cd7d47;
+  color: #441e05e0;
+  background: #cd7d47e0;
 }
 @font-face {
   font-family: "Product Sans";
@@ -27,44 +27,51 @@ a, p {
   font-family: "Product Sans";
   font-weight: 700;
 }
+.boon {
+  margin: 2%;
+}
 .grid {
   display: flex;
+  height: 100vh;
+  width: 100vw;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #0f4c75;
+  background-image: url("https://cdn.discordapp.com/attachments/735858327699062858/742543758611972096/Background-dark-blue-wallpaper-HD.png");
+  background-size: cover;
 }
-.cell, .bar {
+.cell {
   display: flex;
   justify-content: center;
   line-height: 25vh;
-  font-size: 2vw;  
+  font-size: 3vw;  
   flex: 0 0 calc(100% / 3  - 4%);
   height: calc(100vh / 3 - 7.4vh);
   margin-bottom: 3.7vh;
   margin-top: 3.7vh;
   margin-left: 2%;
   margin-right: 2%;
-  background-color: #1b262c;
+  background-color: #1b262ce0;
   border-radius: 40px;
   transition: all 0.3s ease;
 }
-.bar:hover {
-  flex-basis: calc((100% - 80px) + 2%);
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-top: 1.85vh;
-  margin-bottom: 5.55vh;
-  background-color: #3282b8;
-  font-size: 10vmin;
+.big {
+  flex: 0 0 calc(100% - 4%);
+  height: calc(100vh * (2 / 3) - 7.4vh);
+  transition: all 0.3s ease;
+  line-height: 10vh;
+  justify-content: flex-start;
 }
-.cell:hover {
-  flex-basis: calc((100% / 3  - 80px) + 2%);
+.hoverable:hover {
+  flex-basis: calc((100% / 3  - 4%) + 2%);
   margin-left: 1%;
   margin-right: 1%;
   margin-top: 1.85vh;
   margin-bottom: 5.55vh;
-  background-color: #3282b8;
-  font-size: 2.6vw;
+  background-color: #3282b8e0;
+  font-size: 4.2vw;
+}
+.big:hover {
+  flex-basis: calc((100% - 4%) + 2%);
 }
 .unselectable {
   -webkit-touch-callout: none;
@@ -73,4 +80,7 @@ a, p {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+.invisible {
+  background-color: #00000000;
 }
