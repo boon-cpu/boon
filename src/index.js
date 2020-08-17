@@ -1,39 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-const contents = ["React", "Node.js", "TypeScript"]
-let i=0;
-
-class Cycle extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      width: "boks",
-      contents: this.props.contents,
-      value: contents[0],
-    }
-  }
-  render(){
-    return (
-      <span class={this.state.width} onClick={() => {
-        i++
-        if(i>2)i=0
-        this.setState({value: this.state.contents[i]})
-        }}>
-        <a class="boon">{this.state.value}</a>
-      </span>
-    )
-  }
-}
+const boon = "https://cdn.discordapp.com/attachments/733615460108599326/744492234048798780/v_-_Copy.png?size=128"
 
 const App = () => {
   return (
-  <div class="grid">
-    <div class="cell hoverable unselectable"><a>Harrison Boon</a></div>
-    <div class="cell unselectable invisible"></div>
-    <div class="cell unselectable invisible"></div>
-    <div class="cell big hoverable unselectable"><a class="boon">Hi there, I'm Boon,<br/>and I am a full-stack <Cycle width="boks" contents={contents}/> developer</a></div>
-  </div>
+    <div class="App">
+      <div class="container">
+        <h1>Hello. <img src={boon}/></h1>
+      </div>
+    </div>
   );
 }
 
