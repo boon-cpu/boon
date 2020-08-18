@@ -80,6 +80,18 @@ img:hover {
 .linkBar {
   display: inline-block;
 }
+.light {
+  color: #4F8A8B
+}
+.dark {
+  color: #FBD46D;
+}
+#App.dark {
+  background-color: #222831;
+}
+#App.light {
+  background-color: #EEEEEE;
+}
 .light::selection {
   color: #eeeeee; 
   background: #222831;
