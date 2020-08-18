@@ -19,7 +19,7 @@ const Intro = () => {
         document.getElementById('body2')!.style.color = "#FBD46D"
         document.getElementById('github')!.style.color = "#FBD46D"
         document.getElementById('twitter')!.style.color = "#FBD46D"
-        document.getElementById('3')!.style.color = "#FBD46D"
+        document.getElementById('discord')!.style.color = "#FBD46D"
         i+=1;
       } else {
         const darks = document.querySelectorAll('.dark');
@@ -33,7 +33,7 @@ const Intro = () => {
         document.getElementById('body2')!.style.color = "#4F8A8B"
         document.getElementById('github')!.style.color = "#4F8A8B"
         document.getElementById('twitter')!.style.color = "#4F8A8B"
-        document.getElementById('3')!.style.color = "#4F8A8B"
+        document.getElementById('discord')!.style.color = "#4F8A8B"
         i+=1;
       }
     }}src={boon} alt=""/></h1>
@@ -54,7 +54,7 @@ const Links = () => {
     <div className="linkBar">
       <a className="light" href="https://github.com/boon-cpu" id="github">Github</a>
       <a className="light" href="https://twitter.com/B00N9999" id="twitter">Twitter</a>
-      <a className="light" href="/#" id="3">3</a>
+      <a className="light" href="https://discord.bio/p/boon" id="discord">Discord</a>
     </div>
   )
 }
