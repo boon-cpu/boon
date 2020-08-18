@@ -27,7 +27,7 @@ const Intro = () => {
 const Body = () => {
   return(
     <div>
-      <p id="body">I'm a 16 year old dev from the UK.<br/>I aim to innovate and improve every solution to any problem.</p>
+      <p id="body">I'm a 15 year old dev from the UK.<br/>I aim to innovate and improve every solution to any problem.</p>
       <p id="body2">I specialise in Node, React and Typescript development,<br/>but still maintain knowledge in others.</p>
     </div>
   )
