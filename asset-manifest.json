@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/boon/static/css/main.df3b8afb.chunk.css",
-    "main.js": "/boon/static/js/main.a2d5a647.chunk.js",
-    "main.js.map": "/boon/static/js/main.a2d5a647.chunk.js.map",
+    "main.js": "/boon/static/js/main.6d510e79.chunk.js",
+    "main.js.map": "/boon/static/js/main.6d510e79.chunk.js.map",
     "runtime-main.js": "/boon/static/js/runtime-main.b095ebfe.js",
     "runtime-main.js.map": "/boon/static/js/runtime-main.b095ebfe.js.map",
     "static/js/2.5fec4488.chunk.js": "/boon/static/js/2.5fec4488.chunk.js",
     "static/js/2.5fec4488.chunk.js.map": "/boon/static/js/2.5fec4488.chunk.js.map",
     "index.html": "/boon/index.html",
-    "precache-manifest.0cf9a0e4f924245f50f8cfd99e2f7b53.js": "/boon/precache-manifest.0cf9a0e4f924245f50f8cfd99e2f7b53.js",
+    "precache-manifest.23c27efdcc9e25c105e8cdd93ea23491.js": "/boon/precache-manifest.23c27efdcc9e25c105e8cdd93ea23491.js",
     "service-worker.js": "/boon/service-worker.js",
     "static/css/main.df3b8afb.chunk.css.map": "/boon/static/css/main.df3b8afb.chunk.css.map",
     "static/js/2.5fec4488.chunk.js.LICENSE.txt": "/boon/static/js/2.5fec4488.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b095ebfe.js",
     "static/js/2.5fec4488.chunk.js",
     "static/css/main.df3b8afb.chunk.css",
-    "static/js/main.a2d5a647.chunk.js"
+    "static/js/main.6d510e79.chunk.js"
   ]
 }
