@@ -1,10 +1,10 @@
-::-moz-selection { /* Code for disgusting stupid firefox browser */
-  color: #441e05e0;
-  background: #cd7d47e0;
+::-moz-selection {
+  color: #ffffff; 
+  background: #ffa36c;
 }
 ::selection {
-  color: #441e05e0;
-  background: #cd7d47e0;
+  color: #ffffff; 
+  background: #ffa36c;
 }
 @font-face {
   font-family: "Product Sans";
@@ -37,10 +37,13 @@ a, p, h1 {
   font-family: "Product Sans";
   font-weight: 700;
 }
+a {
+  margin: 10px;
+}
 h1 {
   font-size: 48pt;
 }
-p {
+p, a {
   font-size: 24pt;
 }
 h1 {
@@ -67,7 +70,7 @@ img:hover {
   flex-direction: column;
   width: 100vw;
 }
-.header, .body {
+.header, .body, .links {
   margin-top: 5vh;
   margin-left: 10vw;
   display: flex;
@@ -76,4 +79,7 @@ img:hover {
 }
 .body {
   margin-top: 0px;
+}
+.linkBar {
+  display: inline-block;
 }

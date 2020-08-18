@@ -12,12 +12,16 @@ const Intro = () => {
         document.getElementById('intro')!.style.color = "#FBD46D"
         document.getElementById('body')!.style.color = "#FBD46D"
         document.getElementById('body2')!.style.color = "#FBD46D"
+        document.getElementById('github')!.style.color = "#FBD46D"
+        document.getElementById('twitter')!.style.color = "#FBD46D"
         i+=1;
       } else {
         document.getElementById('App')!.style.background = "#EEEEEE"
         document.getElementById('intro')!.style.color = "#4F8A8B"
         document.getElementById('body')!.style.color = "#4F8A8B"
         document.getElementById('body2')!.style.color = "#4F8A8B"
+        document.getElementById('github')!.style.color = "#4F8A8B"
+        document.getElementById('twitter')!.style.color = "#4F8A8B"
         i+=1;
       }
     }}src={boon} alt=""/></h1>
@@ -33,6 +37,15 @@ const Body = () => {
   )
 }
 
+const Links = () => {
+  return(
+    <div className="linkBar">
+      <a href="https://github.com/boon-cpu" id="github">Github</a>
+      <a href="https://twitter.com/B00N9999" id="twitter">Twitter</a>
+    </div>
+  )
+}
+
 const App = () => {
   return (
     <div className="App" id="App">
@@ -41,6 +54,9 @@ const App = () => {
       </div>
       <div className="body">
         <Body />
+      </div>
+      <div className="links">
+        <Links />
       </div>
     </div>
   );
