@@ -19,6 +19,7 @@ const Intro = () => {
         document.getElementById('body2')!.style.color = "#FBD46D"
         document.getElementById('github')!.style.color = "#FBD46D"
         document.getElementById('twitter')!.style.color = "#FBD46D"
+        document.getElementById('3')!.style.color = "#FBD46D"
         i+=1;
       } else {
         const darks = document.querySelectorAll('.dark');
@@ -32,6 +33,7 @@ const Intro = () => {
         document.getElementById('body2')!.style.color = "#4F8A8B"
         document.getElementById('github')!.style.color = "#4F8A8B"
         document.getElementById('twitter')!.style.color = "#4F8A8B"
+        document.getElementById('3')!.style.color = "#4F8A8B"
         i+=1;
       }
     }}src={boon} alt=""/></h1>
@@ -41,7 +43,7 @@ const Intro = () => {
 const Body = () => {
   return(
     <div>
-      <p id="body" className="light">I'm a 15 year old dev from the UK.<br className="light"/>I aim to innovate and improve every solution to any problem.</p>
+      <p id="body" className="light">I'm a full-stack developer from the UK.<br className="light"/>I aim to innovate and improve every solution to any problem.</p>
       <p id="body2" className="light">I specialise in Node, React and Typescript development,<br className="light"/>but still maintain knowledge in others.</p>
     </div>
   )
@@ -52,6 +54,7 @@ const Links = () => {
     <div className="linkBar">
       <a className="light" href="https://github.com/boon-cpu" id="github">Github</a>
       <a className="light" href="https://twitter.com/B00N9999" id="twitter">Twitter</a>
+      <a className="light" href="/#" id="3">3</a>
     </div>
   )
 }
@@ -59,13 +62,13 @@ const Links = () => {
 const App = () => {
   return (
     <div className="App light" id="App">
-      <div className="header light" id="header">
+      <div className="header light">
         <Intro/>
       </div>
-      <div className="body light" id="bodyContainer">
+      <div className="body light">
         <Body />
       </div>
-      <div className="links light" id="links">
+      <div className="links light">
         <Links />
       </div>
     </div>
