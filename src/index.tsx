@@ -6,8 +6,13 @@ let i: number = 0;
 
 const Intro = () => {
   return(
-    <h1 id="intro">Hello. <img onClick={() => {
+    <h1 className="light" id="intro">Hello. <img className="light" onClick={() => {
       if (i % 2 === 0) {
+        const lights = document.querySelectorAll('.light');
+        for (let i = 0; i < lights.length; i++) { 
+          lights.item(i)!.classList.add("dark")
+          lights.item(i)!.classList.remove("light")
+        }
         document.getElementById('App')!.style.background = '#222831'
         document.getElementById('intro')!.style.color = "#FBD46D"
         document.getElementById('body')!.style.color = "#FBD46D"
@@ -16,6 +21,11 @@ const Intro = () => {
         document.getElementById('twitter')!.style.color = "#FBD46D"
         i+=1;
       } else {
+        const darks = document.querySelectorAll('.dark');
+        for (let i = 0; i < darks.length; i++) {
+          darks.item(i)!.classList.add("light")
+          darks.item(i)!.classList.remove("dark")
+        }
         document.getElementById('App')!.style.background = "#EEEEEE"
         document.getElementById('intro')!.style.color = "#4F8A8B"
         document.getElementById('body')!.style.color = "#4F8A8B"
@@ -31,8 +41,8 @@ const Intro = () => {
 const Body = () => {
   return(
     <div>
-      <p id="body">I'm a 15 year old dev from the UK.<br/>I aim to innovate and improve every solution to any problem.</p>
-      <p id="body2">I specialise in Node, React and Typescript development,<br/>but still maintain knowledge in others.</p>
+      <p id="body" className="light">I'm a 15 year old dev from the UK.<br className="light"/>I aim to innovate and improve every solution to any problem.</p>
+      <p id="body2" className="light">I specialise in Node, React and Typescript development,<br className="light"/>but still maintain knowledge in others.</p>
     </div>
   )
 }
@@ -40,22 +50,22 @@ const Body = () => {
 const Links = () => {
   return(
     <div className="linkBar">
-      <a href="https://github.com/boon-cpu" id="github">Github</a>
-      <a href="https://twitter.com/B00N9999" id="twitter">Twitter</a>
+      <a className="light" href="https://github.com/boon-cpu" id="github">Github</a>
+      <a className="light" href="https://twitter.com/B00N9999" id="twitter">Twitter</a>
     </div>
   )
 }
 
 const App = () => {
   return (
-    <div className="App" id="App">
-      <div className="header">
+    <div className="App light" id="App">
+      <div className="header light" id="header">
         <Intro/>
       </div>
-      <div className="body">
+      <div className="body light" id="bodyContainer">
         <Body />
       </div>
-      <div className="links">
+      <div className="links light" id="links">
         <Links />
       </div>
     </div>
