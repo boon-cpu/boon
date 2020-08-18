@@ -15,6 +15,7 @@
   font-family: "Product Sans";
   src: url("Product Sans Bold.ttf");
   font-weight: 700;
+  font-display: swap;
 }
 body {
   height: 100vh;
@@ -41,14 +42,18 @@ img:hover {
   transform:rotate(360deg);
   -ms-transform:rotate(360deg);
   -webkit-transform:rotate(360deg);
+  cursor: pointer;
 }
 .App {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
-.container {
-  margin-top: 200px;
-  margin-left: 300px;
+.header {
+  margin-top: 10vh;
+  margin-left: 10vw;
   display: flex;
   width: 80vw;
   justify-content: flex-start;
