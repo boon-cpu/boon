@@ -8,18 +8,18 @@ const Intro = () => {
   return(
     <h1 id="intro">Hello. <img onClick={() => {
       if (i % 2 === 0) {
-        document.getElementById('App').style.background = '#111111'
-        document.getElementById('intro').style.color = '#FFFFFF'
+        document.getElementById('App').style.background = '#222831'
+        document.getElementById('intro').style.color = "#FBD46D"
         i+=1;
       } else {
-        document.getElementById('App').style.background = '#FFFFFF'
-        document.getElementById('intro').style.color = '#111111'
+        document.getElementById('App').style.background = "#EEEEEE"
+        document.getElementById('intro').style.color = "#4F8A8B"
         i+=1;
       }
     }}src={boon} alt=""/></h1>
   )
 }
-  
+
 const App = () => {
   return (
     <div className="App" id="App">
