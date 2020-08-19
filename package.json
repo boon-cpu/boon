@@ -18,6 +18,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
+    "upload": "yarn run predeploy && git push && yarn run deploy",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
