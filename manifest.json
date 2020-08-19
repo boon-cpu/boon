@@ -1,0 +1,17 @@
+{
+    "short_name": "Boon",
+    "name": "Boon's website",
+    "description": "Boon's website",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/boon/",
+    "background_color": "#eeeeee",
+    "display": "standalone",
+    "scope": "/boon",
+    "theme_color": "#222831"
+  }
